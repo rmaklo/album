@@ -1,47 +1,52 @@
 body{
-        font-family: "Inter", Helvetica, sans-serif;
-        /*background-image: url("agartha.jpg");
-        background-position: top;*/
-        background: #1b3555;
-        color: #99e8fb;
-        text-align: center;
-        margin: 0px;
-    }
+    font-family: "Inter", Helvetica, sans-serif;
+    /*background-image: url("agartha.jpg");
+    background-position: top;*/
+    background: #1b3555;
+    color: #99e8fb;
+    text-align: center;
+    margin: 0px;
+    
+}
 
 img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+width: 100%;
+height: 300px;
+object-fit: cover;
 }
 
 .album{
-    font-family: "Boldonse", "Inter", Helvetica, sans-serif;
-    color: #99e8fb;
-    margin-bottom: -15px;
-    }
-    
-.rappeur{
-    font-family: "Boldonse", "Inter", Helvetica, sans-serif;
-    color: #3dbef7;
-    }
+font-family: "Boldonse", "Inter", Helvetica, sans-serif;
+color: #99e8fb;
+margin-bottom: -15px;
+}
+
+h2{
+font-family: "Boldonse", "Inter", Helvetica, sans-serif;
+color: #3dbef7;
+}
 
 p{
-    color: #99e8fb;
-    text-align: left;
-    margin: 10px;
+color: #99e8fb;
+text-align: left;
+font-size: 25px;
+line-height: 37px;
+padding-left: 50px;
+padding-right: 50px;
 }
+
 ol{
-    background: #1b3555;
-    list-style: none;
+background: #1b3555;
+list-style: none;
 }
 li{
-    background: #162b45;
-    color: #3dbef7;
+background: #162b45;
+color: #3dbef7;
 }
 a{
-    color: #99e8fb;
-    text-decoration: none;
+color: #99e8fb;
+text-decoration: none;
 }
 nav a:hover{
- background: #1b3555;
+background: #1b3555;
 }

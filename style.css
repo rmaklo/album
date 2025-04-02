@@ -1,0 +1,37 @@
+body{
+        font-family: "Inter", Helvetica, sans-serif;
+        background: #1b3555;
+        color: #99e8fb;
+        margin: 0px;
+    }
+
+h1{
+    font-family: "Boldonse", "Inter", Helvetica, sans-serif;
+    color: #99e8fb;
+}
+h2.nom{
+    font-family: "Boldonse", "Inter", Helvetica, sans-serif;
+    color: #3dbef7;
+}
+
+ol{
+    background: #1b3555;
+}
+
+li{
+    background: #3dbef7;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+a{
+    color: #fd318a;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}

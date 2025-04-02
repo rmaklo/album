@@ -19,16 +19,16 @@ ol{
 }
 
 li{
-    background: #3dbef7;
-    color: black;
+    background: #162b45;
+    color: #3dbef7;
 }
 
 p{
-    color: black;
+    color: #99e8fb;
 }
 
 a{
-    color: #fd318a;
+    color: #99e8fb;
     text-decoration: none;
 }
 

@@ -1,7 +1,7 @@
 body{
-    font-family: "Inter", Helvetica, sans-serif;
-    /*background-image: url("agartha.jpg");
-    background-position: top;*/
+    font-family: "Inter";
+      /*background-image: url("agartha.jpg");
+        background-position: top;*/
     background: #1b3555;
     color: #99e8fb;
     text-align: center;
@@ -10,20 +10,44 @@ body{
 }
 
 img{
-width: 100%;
-height: 300px;
+width: 33%;
 object-fit: cover;
 }
 
+.menu{
+    list-style: none;
+    text-align: center;
+    font-family: "Boldonse";
+}
+.menu {
+    background: #162b45;
+    color: #3dbef7;
+
+}
+.navun .menu li{
+    display: inline-block;
+    margin: 10px;
+}
+.navun .menu a{
+    color: #99e8fb;
+    text-decoration: none;
+} 
+.navun a:hover{
+    background: #1b3555;
+    padding: 10px;
+}
+
 .album{
-font-family: "Boldonse", "Inter", Helvetica, sans-serif;
+font-family: "Boldonse", "Inter";
 color: #99e8fb;
 margin-bottom: -15px;
 }
 
 h2{
-font-family: "Boldonse", "Inter", Helvetica, sans-serif;
+font-family: "Boldonse", "Inter";
 color: #3dbef7;
+padding-left: 50px;
+padding-right: 50px;
 }
 
 p{
@@ -35,18 +59,19 @@ padding-left: 50px;
 padding-right: 50px;
 }
 
-ol{
+.tracklist{
 background: #1b3555;
 list-style: none;
 }
-li{
+.tracklist li{
 background: #162b45;
 color: #3dbef7;
+font-size: 25px;
 }
-a{
+.tracklist a{
 color: #99e8fb;
 text-decoration: none;
 }
-nav a:hover{
+.navdeux a:hover{
 background: #1b3555;
 }

@@ -6,35 +6,28 @@ body{
     color: #99e8fb;
     text-align: center;
     margin: 0px;
-    
 }
 
 img{
-width: 33%;
+width: 45%;
 object-fit: cover;
 }
 
-.menu{
-    list-style: none;
-    text-align: center;
-    font-family: "Boldonse";
-}
 .menu {
     background: #162b45;
-    color: #3dbef7;
-
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-family: "Boldonse";
 }
-.navun .menu li{
-    display: inline-block;
-    margin: 10px;
-}
-.navun .menu a{
+.menu a{
     color: #99e8fb;
     text-decoration: none;
 } 
 .navun a:hover{
     background: #1b3555;
-    padding: 10px;
+    padding: 20px;
 }
 
 .album{
@@ -55,23 +48,65 @@ color: #99e8fb;
 text-align: left;
 font-size: 25px;
 line-height: 37px;
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 100px;
+padding-right: 100px;
 }
 
+.source1{
+    color: #99e8fb;
+    text-align: left;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+.image .source1 a{
+    color: #99e8fb;
+    text-decoration: none;
+}
+.source1 a:hover{
+    background: #1b3555;
+}
+
+.source2{
+    color: #99e8fb;
+    text-align: left;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+.article .source2 a{
+    color: #99e8fb;
+    text-decoration: none;
+}
+.source2 a:hover{
+    background: #1b3555;
+}
+
+.sons .stt h2{
+    margin-bottom: -15px;
+}
+.sons p{
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
 .tracklist{
-background: #1b3555;
-list-style: none;
+    background: #1b3555;
+    list-style: none;
 }
 .tracklist li{
-background: #162b45;
-color: #3dbef7;
-font-size: 25px;
+    background: #162b45;
+    color: #3dbef7;
+    font-size: 17px;
+    margin-block: 7px;
+    padding-block: 12px;
 }
 .tracklist a{
-color: #99e8fb;
-text-decoration: none;
+    font-weight: 700;
+    color: #99e8fb;
+    text-decoration: none;
 }
 .navdeux a:hover{
-background: #1b3555;
+    background: #1b3555;
+    padding: 12px;
 }
